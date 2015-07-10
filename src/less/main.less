@@ -1,0 +1,63 @@
+@import "~material-ui/src/less/scaffolding.less";
+@import "~material-ui/src/less/components.less";
+
+.default-checkbox.mui-checkbox.undefined .mui-checkbox-icon * {
+	fill: lightgray;
+}
+
+.link {
+	fill: none;
+	stroke-width: 2px;
+}
+
+.nodes-select {
+	clear: none;
+	float:left;
+}
+
+.correlation-graph {
+	float:right;
+	clear: none;
+}
+
+.d3-tip {
+	background: lightgray;
+}
+
+.pane {
+	fill: none;
+	pointer-events: all;
+	cursor: move;
+}
+
+path.rms {
+	fill: none;
+	stroke-width: 1px;
+}
+
+rect.state-rect {
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+div.state-rect {
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	&.state-0 {
+		background-color: white;
+	}
+	&.state-1 {
+		background-color: orange;
+	}
+	&.state-2 {
+		background-color: blue;
+	}
+	&.state-3 {
+		background-color: gray;
+	}
+}
+
+.cursor {
+	stroke: black;
+}

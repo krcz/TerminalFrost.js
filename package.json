@@ -1,0 +1,23 @@
+{
+  "name": "terminal_frost",
+  "author": "Marcin Kurczych <krcz@krcz.eu",
+  "dependencies": {
+    "babel": "~5.0.12",
+    "d3": "~3.5.5",
+    "lodash": "^3.6.0",
+    "material-ui": "^0.7.3",
+    "papaparse": "~4.1.0",
+    "react": "~0.13.2",
+    "react-tap-event-plugin": "^0.1.6",
+    "JSON": "~1.0.0",
+    "classnames": "~1.2.1",
+    "d3-tip": "~0.6.7",
+    "baobab": "~1.0.2",
+    "baobab-react": "~0.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "~1.8.0",
+    "exports-loader": "~0.6.2",
+    "imports-loader": "~0.6.3"
+  }
+}
